@@ -11,8 +11,11 @@
     "type": "git",
     "url": "git://github.com/thomashorrobin/simple-bus-stop-server.git"
   },
-  "license" : "GPL-3.0",
+  "license": "GPL-3.0",
   "dependencies": {
     "mongodb": "^2.1.18"
+  },
+  "devDependencies": {
+    "flightplan": "^0.6.14"
   }
 }
