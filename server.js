@@ -47,7 +47,6 @@ function search(searchTerm, res) {
                 var stops = [];
                 for (var index = 0; index < docs.length; index++) {
                     var stop = docs[index];
-                    console.log(stop);
                     if (stop.Name.toLowerCase().includes(searchTerm.toLowerCase())) {
                         stops.push(stop);
                     }
